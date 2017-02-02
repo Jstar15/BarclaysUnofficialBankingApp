@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/settingsicon"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:background="@android:color/white" />
+
+    <ImageView android:layout_width="353dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/homescreenlogo"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:layout_marginTop="30dp">
+    </ImageView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginBottom="5dp"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView android:layout_width="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/off"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_margin="10dp">
+        </ImageView>
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/off"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_margin="10dp">
+        </ImageView>
+
+        <ImageView android:layout_width="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/off"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_margin="10dp">
+        </ImageView>
+
+        <ImageView android:layout_width="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/off"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_margin="10dp">
+        </ImageView>
+
+        <ImageView android:layout_width="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/off"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_margin="10dp">
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:foreground="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="31dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please enter your 5 digit pin code"
+        android:id="@+id/keyboardView"
+        android:gravity="center|top"
+        android:paddingTop="10dp"
+        android:textColor="#9bb1bc"
+        android:background="@android:color/white" />
+</LinearLayout>
